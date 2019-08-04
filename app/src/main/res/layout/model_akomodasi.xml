@@ -18,8 +18,8 @@
             <ImageView
                 android:id="@+id/imageAkomodasi"
                 android:scaleType="centerCrop"
-                android:layout_width="120dp"
-                android:layout_height="120dp" />
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
 
             <LinearLayout
                 android:layout_margin="10dp"

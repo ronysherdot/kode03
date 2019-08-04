@@ -1,6 +1,7 @@
 package com.android.panduanpss;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -50,6 +51,20 @@ public class JadwalAdapter extends BaseAdapter {
         txtHari.setText(peziarah.getNama_jadwal());
         PicassoClient.downloadImage(context, peziarah.getFoto_hari(), imageHari);
 
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openJadwal(peziarah.getId());
+            }
+        });
+
         return view;
+    }
+
+    private void openJadwal(int hari_raya_id) {
+        Intent detailJadwal = new Intent(context, JadwalDetailActivity.class);
+        detailJadwal.putExtra("hari_raya_id", hari_raya_id);
+        detailJadwal.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(detailJadwal);
     }
 }
