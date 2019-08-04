@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PanduanPSS</string>
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+
+    <string name="urlAddress">http://10.10.10.106/peziarah/</string>
+</resources>
