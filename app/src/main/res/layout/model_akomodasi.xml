@@ -28,11 +28,13 @@
                 android:layout_height="match_parent">
 
                 <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:textColor="#000"
                     android:id="@+id/txtNamaAkomodasi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:textColor="#000"
                     android:id="@+id/txtAlamatAkomodasi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />

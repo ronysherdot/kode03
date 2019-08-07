@@ -4,5 +4,5 @@
     <string name="openDrawer">Drawer dibuka</string>
     <string name="closeDrawer">Drawer ditutup</string>
 
-    <string name="urlAddress">http://192.168.1.125/peziarah/</string>
+    <string name="urlAddress">http://172.20.10.3/peziarah/</string>
 </resources>

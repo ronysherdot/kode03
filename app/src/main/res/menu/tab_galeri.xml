@@ -3,13 +3,13 @@
     <item
         android:id="@+id/menu1"
         android:title="Sejarah"
-        android:icon="@drawable/ic_event_note_24dp"/>
+        android:icon="@drawable/ikon_sejarah"/>
     <item
         android:id="@+id/menu2"
         android:title="Jadwal"
-        android:icon="@drawable/ic_event_note_24dp"/>
+        android:icon="@drawable/ikon_jadwal"/>
     <item
         android:id="@+id/menu3"
         android:title="Akomodasi"
-        android:icon="@drawable/ic_event_note_24dp"/>
+        android:icon="@drawable/ikon_akomodasi"/>
 </menu>

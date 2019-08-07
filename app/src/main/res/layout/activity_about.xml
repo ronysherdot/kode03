@@ -12,9 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/gradient"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
             <LinearLayout
                 android:orientation="vertical"
@@ -33,8 +45,9 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="#000"
                         android:gravity="center"
-                        android:text="Multimedia Interaktif ......"
+                        android:text="Panduan Peziarah Semana Santa Kota Larantuka"
                         android:layout_marginBottom="50dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
@@ -42,25 +55,28 @@
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/imageProfile"
                         android:layout_width="match_parent"
-                        android:layout_height="140dp"
+                        android:layout_height="200dp"
                         android:src="@drawable/image_not_found"/>
 
                     <TextView
-                        android:text="NIM : "
+                        android:textColor="#000"
+                        android:text="NIM : 150030548"
                         android:gravity="center"
                         android:layout_marginTop="40dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="Nama : "
+                        android:textColor="#000"
+                        android:text="Nama : Michael D. Lamabelawa"
                         android:gravity="center"
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="Prodi : "
+                        android:textColor="#000"
+                        android:text="Prodi : Sistem Informasi"
                         android:gravity="center"
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"

@@ -12,9 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/gradient"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -40,27 +52,63 @@
                             android:id="@+id/imageAkomodasi"
                             android:layout_marginBottom="20dp"
                             android:layout_width="match_parent"
-                            android:layout_height="200dp" />
+                            android:layout_height="240dp" />
+
+                        <TextView
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:text="Alamat : "
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
 
                         <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:textColor="#000"
                             android:id="@+id/txtAlamatAkomodasi"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
+                        <TextView
+                            android:textColor="#000"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp"
+                            android:text="Harga : "
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
                         <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:textColor="#000"
                             android:id="@+id/txtHargaAkomodasi"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                        <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/txtJarakAkomodasi"
+                        <TextView
+                            android:textColor="#000"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp"
+                            android:text="Jarak Lokasi : "
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
                         <com.uncopt.android.widget.text.justify.JustifiedTextView
-                            android:id="@+id/txtDeskripsiAkomodasi"
+                            android:textColor="#000"
+                            android:id="@+id/txtJarakAkomodasi"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:textColor="#000"
+                            android:layout_marginTop="10dp"
+                            android:textSize="18sp"
+                            android:text="Keterangan : "
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:textColor="#000"
+                            android:id="@+id/txtDeskripsiAkomodasi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp" />
 
                     </LinearLayout>
 
