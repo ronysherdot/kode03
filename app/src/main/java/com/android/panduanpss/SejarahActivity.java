@@ -66,7 +66,7 @@ public class SejarahActivity extends Fragment {
                                     String foto_sejarah = dataSejarah.getString("foto");
 
                                     String urlAddress = getString(R.string.urlAddress);
-                                    foto_sejarah = urlAddress+foto_sejarah;
+                                    foto_sejarah = urlAddress+"image/"+foto_sejarah;
 
                                     peziarah = new Peziarah();
                                     peziarah.setSejarah_id(sejarah_id);

@@ -70,7 +70,7 @@ public class AkomodasiActivity extends Fragment {
                                     String foto_akomodasi = dataAkomodasi.getString("foto");
 
                                     String urlAddress = getString(R.string.urlAddress);
-                                    foto_akomodasi = urlAddress+foto_akomodasi;
+                                    foto_akomodasi = urlAddress+"image/"+foto_akomodasi;
 
                                     peziarah = new Peziarah();
                                     peziarah.setAkomodasi_id(akomodasi_id);

@@ -66,7 +66,7 @@ public class JadwalActivity extends Fragment {
                                     String foto_hari = dataHari.getString("foto");
 
                                     String urlAddress = getString(R.string.urlAddress);
-                                    foto_hari = urlAddress+foto_hari;
+                                    foto_hari = urlAddress+"image/"+foto_hari;
 
                                     peziarah = new Peziarah();
                                     peziarah.setId(id);
