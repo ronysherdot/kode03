@@ -47,6 +47,8 @@
                     <TextView
                         android:textColor="#000"
                         android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
                         android:text="Panduan Peziarah Semana Santa Kota Larantuka"
                         android:layout_marginBottom="50dp"
                         android:layout_width="match_parent"
@@ -56,7 +58,7 @@
                         android:id="@+id/imageProfile"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
-                        android:src="@drawable/image_not_found"/>
+                        android:src="@drawable/profil"/>
 
                     <TextView
                         android:textColor="#000"
