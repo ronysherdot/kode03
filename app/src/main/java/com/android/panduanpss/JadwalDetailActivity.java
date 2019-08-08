@@ -75,7 +75,7 @@ public class JadwalDetailActivity extends AppCompatActivity {
                                     String foto_jadwal = dataJadwal.getString("foto");
 
                                     String urlAddress = getString(R.string.urlAddress);
-                                    foto_jadwal = urlAddress+foto_jadwal;
+                                    foto_jadwal = urlAddress+"image/"+foto_jadwal;
 
                                     peziarah = new Peziarah();
                                     peziarah.setJadwal_id(jadwal_id);
