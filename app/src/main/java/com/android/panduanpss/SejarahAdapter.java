@@ -1,6 +1,8 @@
 package com.android.panduanpss;
 
 import android.content.Context;
+import android.os.Build;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,6 +54,12 @@ public class SejarahAdapter extends BaseAdapter {
         txtJudulSejarah.setText(peziarah.getJudul_sejarah());
         txtSejarah.setText(peziarah.getInformasi());
         PicassoClient.downloadImage(context, peziarah.getFoto_sejarah(), imageSejarah);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            txtSejarah.setText(Html.fromHtml(peziarah.getInformasi(), Html.FROM_HTML_MODE_LEGACY));
+        } else {
+            txtSejarah.setText(Html.fromHtml(peziarah.getInformasi()));
+        }
 
         return view;
     }
