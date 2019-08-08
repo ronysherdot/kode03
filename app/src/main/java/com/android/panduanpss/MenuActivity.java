@@ -55,7 +55,7 @@ public class MenuActivity extends AppCompatActivity implements BottomNavigationV
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Peziarah Semana Santa");
+        getSupportActionBar().setTitle("PEZIARAH SEMANA SANTA");
         Objects.requireNonNull(getSupportActionBar()).setDisplayShowHomeEnabled(true);
 
         navigationView = findViewById(R.id.navigation_view);
