@@ -43,9 +43,9 @@ public class SejarahActivity extends Fragment {
 
     private void dataSejarah() {
         String urlAddress = getString(R.string.urlAddress);
-        final String kecakAddress = urlAddress + "select.php";
+        final String sejarahAddress = urlAddress + "select.php";
 
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, kecakAddress,
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, sejarahAddress,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

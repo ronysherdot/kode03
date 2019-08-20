@@ -15,11 +15,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".JadwalDetailActivity"></activity>
-        <activity android:name=".AkomodasiDetailActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Main2Activity"></activity>
+        <activity
+            android:name=".JadwalDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AkomodasiDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
